@@ -6,7 +6,6 @@ body {
     color: #333333;                
 }
 
-/*navbar*/
 .navbar.bg-body-tertiary {
     background-color: #333333 !important;
     border-bottom: 5px solid #eb8113;
@@ -24,7 +23,6 @@ body {
     background-color: #eb8113;
 }
 
-/*index*/
 .btn.btn-primary{
     background-color: #eb8113;
     border-color: #eb8113;
@@ -39,7 +37,6 @@ body {
     max-width: 100%;
 }
 
-/*cv*/
 .rounded-circle{
     max-height: 200px;
 }
@@ -48,7 +45,6 @@ body {
     margin: 0px 10px;
 }
 
-/*hobby's*/
 .carousel-item{
     height: 350px;
 }
@@ -75,7 +71,6 @@ hr{
     margin-bottom: 4rem;
 }
 
-/*ervaring*/
 .img_ervaring{
     width: 250px;
 }
@@ -84,7 +79,6 @@ p.ervaring{
     text-align: left;
 }
 
-/* footer*/
 footer {
     background-color: #333333;
     color: #eb8113;
