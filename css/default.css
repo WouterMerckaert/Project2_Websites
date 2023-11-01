@@ -75,6 +75,15 @@ hr{
     margin-bottom: 4rem;
 }
 
+/*ervaring*/
+.img_ervaring{
+    width: 250px;
+}
+
+p.ervaring{
+    text-align: left;
+}
+
 /* footer*/
 footer {
     background-color: #333333;
