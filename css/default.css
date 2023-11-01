@@ -39,6 +39,42 @@ body {
     max-width: 100%;
 }
 
+/*cv*/
+.rounded-circle{
+    max-height: 200px;
+}
+
+.bi{
+    margin: 0px 10px;
+}
+
+/*hobby's*/
+.carousel-item{
+    height: 350px;
+}
+
+.d-block{
+   height: 350px;
+}
+
+.carousel-caption.white{
+    color: white;
+}
+
+.carousel-caption.black{
+    color: black;
+}
+
+.img_hobby{
+   max-height: 300px;
+    max-width: 400px;
+}
+
+hr{
+    border-top: 3px solid #eb8113;
+    margin-bottom: 4rem;
+}
+
 /* footer*/
 footer {
     background-color: #333333;

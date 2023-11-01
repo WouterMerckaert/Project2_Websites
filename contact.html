@@ -20,7 +20,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Wouter Merckaert</a>
+        <a class="navbar-brand" href="index.html">Wouter Merckaert</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,6 +46,126 @@
         </div>
       </div>
     </nav>
+
+    <div class="container mt-4">
+      <form
+        id="contactForm"
+        action="#"
+        method="post"
+        class="needs-validation"
+        novalidate
+      >
+        <div class="form-group">
+          <label for="name">Naam en Voornaam *</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">Dit veld is verplicht.</div>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mailadres *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">Een geldig e-mailadres is vereist.</div>
+        </div>
+        <div class="form-group">
+          <label for="name">Onderwerp *</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">Dit veld is verplicht.</div>
+        </div>
+        <div class="form-group">
+          <label>Interesse in skills</label>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              id="C#"
+              name="interest"
+              value="C#"
+              class="form-check-input"
+            />
+            <label for="C#" class="form-check-label">C#</label>
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              id="HTML"
+              name="interest"
+              value="HTML"
+              class="form-check-input"
+            />
+            <label for="HTML" class="form-check-label">HTML</label>
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              id="CSS"
+              name="interest"
+              value="CSS"
+              class="form-check-input"
+            />
+            <label for="CSS" class="form-check-label">CSS</label>
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              id="databases"
+              name="interest"
+              value="databases"
+              class="form-check-input"
+            />
+            <label for="databases" class="form-check-label">databases</label>
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              id="bootstrap"
+              name="interest"
+              value="bootstrap"
+              class="form-check-input"
+            />
+            <label for="bootstrap" class="form-check-label">bootstrap</label>
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              id="andere"
+              name="interest"
+              value="andere"
+              class="form-check-input"
+            />
+            <label for="andere" class="form-check-label">Andere</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="question">Vraag</label>
+          <textarea
+            id="question"
+            name="question"
+            rows="4"
+            class="form-control"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mb-4 mt-4">
+          Verzenden
+        </button>
+      </form>
+    </div>
 
     <footer>
       <div class="container">
